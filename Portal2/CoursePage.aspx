@@ -8,26 +8,13 @@
 
             <h2>NORFOLK STATE UNIVERSITY PORTAL</h2>
         
-            
+            <!-- Search form -->
+            <input class="form-control" type="text" placeholder="Find A Subject" aria-label="Search">
             <br />
         </center>        
     </div>
-
-    <div>
-        <center>
-            <h1>CSC 260: Computer Programming II</h1>
-<!-- Search form -->
-            <input class="form-control" type="text" placeholder="Search A Question" aria-label="Search" >
-
-        </center>
-        <p>&nbsp;&nbsp;&nbsp;
-
-        </p>
-
-    </div>
-
-    <div style="width: 1800px;">
-        <div style="width: 900px; float: right;">
+    <div style="width: 2000px;">
+        <div style="width: 1000px; float: right;">
             
             <asp:CheckBoxList ID="CheckBoxList1" runat="server">
                 <asp:ListItem>#ForLoops</asp:ListItem>
@@ -49,7 +36,7 @@
             </asp:CheckBoxList>
         </div>
    
-        <div style="width: 900px; float: left;">
+        <div style="width: 1000px; float: left;">
         <h1>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:ImageButton ID="ImageButton12" runat="server" Height="200px" ImageUrl="~/Images/math-subject-clipart-1.jpg" Width="306px" ImageAlign="Middle" />
@@ -76,7 +63,7 @@
 
         </p>
         <p>
-            &nbsp;</p>  
+            &nbsp;</p>
         </div>
         <br />
         <br />
